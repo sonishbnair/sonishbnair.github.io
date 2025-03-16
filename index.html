@@ -240,6 +240,7 @@
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
+            cursor: pointer;
         }
         
         .project-card::before {
@@ -276,7 +277,7 @@
             transition: color 0.3s;
         }
         
-        .project-title a:hover {
+        .project-card:hover .project-title {
             color: var(--accent-1);
         }
         
@@ -364,27 +365,27 @@
             </div>
             
             <div class="projects-grid">
-                <div class="project-card glass">
+                <div class="project-card glass" onclick="window.open('https://github.com/sonishbnair/minnal_ammu', '_blank')">
                     <h3 class="project-title">
-                        <a href="https://github.com/sonishbnair/minnal_ammu" target="_blank">AI Storytelling and Image Creation</a>
+                        AI Storytelling and Image Creation
                     </h3>
                     <div class="project-description">
                         <p>An AI-powered superhero story generator that brings Minnal Ammu's adventures to life through dynamic narratives and images in a continuously evolving universe. Minnal Ammu is a superhero character I created a few years ago for bedtime stories with my daughter. This project combines advanced language models with image generation capabilities to produce immersive storytelling experiences within a consistent universe.</p>
                     </div>
                 </div>
                 
-                <div class="project-card glass">
+                <div class="project-card glass" onclick="window.open('https://github.com/sonishbnair/GenAI_Media/tree/main/Chatbot_with_RAG', '_blank')">
                     <h3 class="project-title">
-                        <a href="https://github.com/sonishbnair/GenAI_Media/tree/main/Chatbot_with_RAG" target="_blank">A RAG Assistant</a>
+                        A RAG Assistant
                     </h3>
                     <div class="project-description">
                         <p>This architecture demonstrates a modern customer service solution that leverages open-source tools and AI models to build a powerful knowledge retrieval system. The knowledge base creation pipeline starts with a Document Repository containing organizational documentation, user guides, and other materials.</p>
                     </div>
                 </div>
                 
-                <div class="project-card glass">
+                <div class="project-card glass" onclick="window.open('https://github.com/sonishbnair/market-analysis-agent', '_blank')">
                     <h3 class="project-title">
-                        <a href="#" target="_blank">AI Agent for Market Analysis</a>
+                        AI Agent for Market Analysis
                     </h3>
                     <div class="project-description">
                         <p>An intelligent agent that analyzes and generates comprehensive reports for stock tickets. This project leverages AI to provide market insights and performance analysis to help investors make informed decisions.</p>
